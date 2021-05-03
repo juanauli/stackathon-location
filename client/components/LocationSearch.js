@@ -73,6 +73,7 @@ class LocationSearch extends Component {
           <input
             name='nickname'
             type='text'
+            autocomplete='off'
             value={nickname}
             onChange={handleChange}
             placeholder='nickname'
@@ -80,6 +81,7 @@ class LocationSearch extends Component {
           <input
             name='address'
             id='autocomplete'
+            autocomplete='off'
             type='text'
             value={address}
             onChange={handleChange}
